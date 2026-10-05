@@ -1,6 +1,6 @@
-#TP1
+# TP1
 ## Activité 1
-![img.png](img.png)
+![act1.png](screenshots/act1.jpg)
 
 ## Activité 2
 
