@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.net.Socket;
 
 public class Client {
-    static void main() throws IOException {
+    public static void main() throws IOException {
         System.out.println("je suis un client pas encore connecté");
 
 
