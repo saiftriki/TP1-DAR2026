@@ -34,7 +34,7 @@ public class Client2 {
 
             // recevoir la resultat
             res = dis.readInt();
-            System.out.println("entier reçu : " + res);
+            System.out.println("resultat reçu : " + res);
             } while( x!=0 );
 
            scan.close();
