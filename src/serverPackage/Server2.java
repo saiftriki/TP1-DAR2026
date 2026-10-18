@@ -8,16 +8,16 @@ public class Server2 {
     public static void main(String[] args) throws IOException {
 
         ServerSocket serverSocket = new ServerSocket(1234);
-        System.out.println("Je suis un serveur(2) en attente la connexion d'un client ");
+        System.out.println("Je suis un serveur en attente la connexion d'un client ");
 
             Socket socket = serverSocket.accept();
             System.out.println("un client est connecté");
 
-            // std-in
+            // In
             InputStream is = socket.getInputStream();
             DataInputStream dis = new DataInputStream(is);
             
-            // std-out
+            // Out
             OutputStream os = socket.getOutputStream();
             DataOutputStream dos = new DataOutputStream(os);
 

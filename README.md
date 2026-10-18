@@ -19,3 +19,5 @@ Le client reçoit 251 au lieu de -5 parce que la communication ne peut transport
 ### Activité 1-3
 #### 1. Connexion Client/Serveur sur deux machines distinctes
 ![act1-3_1.jpg](screenshots/act1-3_1.jpg)
+#### 2. Service de calculatrice amélioré
+![act1-3_2.jpg](screenshots/act1-3_2.jpg)

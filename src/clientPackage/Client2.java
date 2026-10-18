@@ -11,11 +11,11 @@ public class Client2 {
         try (Socket socket = new Socket("localhost", 1234)) {
             System.out.println("je suis un client connecté");
 
-            // std-out
+            // Out
             OutputStream os = socket.getOutputStream();
             DataOutputStream dos = new DataOutputStream(os);
             
-            // std-in
+            // In
             InputStream is = socket.getInputStream();
             DataInputStream dis = new DataInputStream(is);
 
@@ -25,7 +25,7 @@ public class Client2 {
 
             do{            
             // saisir un entier
-            System.out.println("taper un entier: ");
+            System.out.print("taper un entier: ");
             x = scan.nextInt();
 
             // envoi au serveur
