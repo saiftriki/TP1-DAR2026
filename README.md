@@ -1,4 +1,4 @@
-# TP1
+# TP1 : Les sockets en mode connecté TCP
 ## Activité 1
 
 ### Activité 1-1
